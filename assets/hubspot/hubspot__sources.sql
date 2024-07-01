@@ -78,6 +78,9 @@ create table if not exists hubspot_contact (
   __hevo__ingested_at integer,
   __hevo__loaded_at integer,
 
+  __hevo_merged boolean,
+  __hevo_merged_into varchar,
+
   primary key (contact_id)
 );
 
@@ -139,6 +142,9 @@ create table if not exists hubspot_company (
   __hevo__ingested_at integer,
   __hevo__loaded_at integer,
 
+  __hevo_merged boolean,
+  __hevo_merged_into varchar,
+
   primary key (company_id)
 );
 
@@ -186,6 +192,9 @@ create table if not exists hubspot_product (
 
   __hevo__ingested_at integer,
   __hevo__loaded_at integer,
+
+  __hevo_merged boolean,
+  __hevo_merged_into varchar,
 
   primary key (product_id)
 );
@@ -274,6 +283,9 @@ create table if not exists hubspot_deal (
   __hevo__ingested_at integer,
   __hevo__loaded_at integer,
 
+  __hevo_merged boolean,
+  __hevo_merged_into varchar,
+
   subscription_status varchar,
   billing_period varchar,
   billing_interval integer,
@@ -342,6 +354,9 @@ create table if not exists hubspot_line_item (
 
   __hevo__ingested_at integer,
   __hevo__loaded_at integer,
+
+  __hevo_merged boolean,
+  __hevo_merged_into varchar,
 
   primary key (line_item_id)
 );
