@@ -1,0 +1,141 @@
+{
+  "field_mappings": [
+    {
+      "source_field": "id",
+      "destination_field": "COMPANY_ID",
+      "ignored": false
+    },
+    {
+      "source_field": "name",
+      "destination_field": "NAME",
+      "ignored": false
+    },
+    {
+      "source_field": "created_at",
+      "destination_field": "CREATED_AT",
+      "ignored": false
+    },
+    {
+      "source_field": "updated_at",
+      "destination_field": "UPDATED_AT",
+      "ignored": false
+    },
+    {
+      "source_field": "address",
+      "destination_field": "ADDRESS",
+      "ignored": false
+    },
+    {
+      "source_field": "zip",
+      "destination_field": "ZIP",
+      "ignored": false
+    },
+    {
+      "source_field": "city",
+      "destination_field": "CITY",
+      "ignored": false
+    },
+    {
+      "source_field": "country",
+      "destination_field": "COUNTRY",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_object_source_id",
+      "destination_field": "COMPANY_SOURCE_ID",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_object_source",
+      "destination_field": "COMPANY_SOURCE",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_object_source_label",
+      "destination_field": "COMPANY_SOURCE_LABEL",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_object_source_detail_1",
+      "destination_field": "COMPANY_SOURCE_DETAIL_1",
+      "ignored": false
+    },
+    {
+      "source_field": "archived",
+      "destination_field": "IS_ARCHIVED",
+      "ignored": false
+    },
+
+    {
+      "source_field": "num_associated_contacts",
+      "destination_field": "NUM_ASSOCIATED_CONTACTS",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_date_entered_lead",
+      "destination_field": "HS_DATE_ENTERED_LEAD",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_pipeline",
+      "destination_field": "HS_PIPELINE",
+      "ignored": true
+    },
+    {
+      "source_field": "createdate",
+      "destination_field": "CREATEDATE",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_num_blockers",
+      "destination_field": "HS_NUM_BLOCKERS",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_num_open_deals",
+      "destination_field": "HS_NUM_OPEN_DEALS",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_time_in_lead",
+      "destination_field": "HS_TIME_IN_LEAD",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_target_account_probability",
+      "destination_field": "HS_TARGET_ACCOUNT_PROBABILITY",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_lastmodifieddate",
+      "destination_field": "HS_LASTMODIFIEDDATE",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_num_decision_makers",
+      "destination_field": "HS_NUM_DECISION_MAKERS",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_object_id",
+      "destination_field": "HS_OBJECT_ID",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_num_contacts_with_buying_roles",
+      "destination_field": "HS_NUM_CONTACTS_WITH_BUYING_ROLES",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_num_child_companies",
+      "destination_field": "HS_NUM_CHILD_COMPANIES",
+      "ignored": true
+    },
+    {
+      "source_field": "lifecyclestage",
+      "destination_field": "LIFECYCLESTAGE",
+      "ignored": true
+    }
+  ],
+  "destination_table": "HUBSPOT_COMPANY"
+}

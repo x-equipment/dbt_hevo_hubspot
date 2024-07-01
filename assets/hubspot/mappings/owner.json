@@ -1,0 +1,45 @@
+{
+  "field_mappings": [
+    {
+      "source_field": "id",
+      "destination_field": "OWNER_ID",
+      "ignored": false
+    },
+    {
+      "source_field": "first_name",
+      "destination_field": "FIRST_NAME",
+      "ignored": false
+    },
+    {
+      "source_field": "last_name",
+      "destination_field": "LAST_NAME",
+      "ignored": false
+    },
+    {
+      "source_field": "email",
+      "destination_field": "EMAIL",
+      "ignored": false
+    },
+    {
+      "source_field": "created_at",
+      "destination_field": "CREATED_AT",
+      "ignored": false
+    },
+    {
+      "source_field": "updated_at",
+      "destination_field": "UPDATED_AT",
+      "ignored": false
+    },
+    {
+      "source_field": "user_id",
+      "destination_field": "USER_ID",
+      "ignored": false
+    },
+    {
+      "source_field": "archived",
+      "destination_field": "IS_ARCHIVED",
+      "ignored": false
+    }
+  ],
+  "destination_table": "HUBSPOT_OWNER"
+}

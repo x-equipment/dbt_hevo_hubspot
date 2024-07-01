@@ -1,0 +1,200 @@
+{
+  "field_mappings": [
+    {
+      "source_field": "id",
+      "destination_field": "DEAL_ID",
+      "ignored": false
+    },
+    {
+      "source_field": "dealname",
+      "destination_field": "NAME",
+      "ignored": false
+    },
+    {
+      "source_field": "created_at",
+      "destination_field": "CREATED_AT",
+      "ignored": false
+    },
+    {
+      "source_field": "updated_at",
+      "destination_field": "UPDATED_AT",
+      "ignored": false
+    },
+    {
+      "source_field": "closedate",
+      "destination_field": "CLOSED_AT",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_object_source_id",
+      "destination_field": "DEAL_SOURCE_ID",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_object_source",
+      "destination_field": "DEAL_SOURCE",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_object_source_label",
+      "destination_field": "DEAL_SOURCE_LABEL",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_object_source_detail_1",
+      "destination_field": "DEAL_SOURCE_DETAIL_1",
+      "ignored": false
+    },
+    {
+      "source_field": "archived",
+      "destination_field": "IS_ARCHIVED",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_closed_amount_in_home_currency",
+      "destination_field": "HS_CLOSED_AMOUNT_IN_HOME_CURRENCY",
+      "ignored": true
+    },
+    {
+      "source_field": "num_associated_contacts",
+      "destination_field": "NUM_ASSOCIATED_CONTACTS",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_num_associated_deal_registrations",
+      "destination_field": "HS_NUM_ASSOCIATED_DEAL_REGISTRATIONS",
+      "ignored": true
+    },
+    {
+      "source_field": "createdate",
+      "destination_field": "CREATEDATE",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_num_of_associated_line_items",
+      "destination_field": "HS_NUM_OF_ASSOCIATED_LINE_ITEMS",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_deal_stage_probability",
+      "destination_field": "HS_DEAL_STAGE_PROBABILITY",
+      "ignored": true
+    },
+    {
+      "source_field": "days_to_close",
+      "destination_field": "DAYS_TO_CLOSE",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_deal_stage_probability_shadow",
+      "destination_field": "HS_DEAL_STAGE_PROBABILITY_SHADOW",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_closed_amount",
+      "destination_field": "HS_CLOSED_AMOUNT",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_createdate",
+      "destination_field": "HS_CREATEDATE",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_is_deal_split",
+      "destination_field": "HS_IS_DEAL_SPLIT",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_num_target_accounts",
+      "destination_field": "HS_NUM_TARGET_ACCOUNTS",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_closed_won_count",
+      "destination_field": "HS_CLOSED_WON_COUNT",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_is_closed_won",
+      "destination_field": "HS_IS_CLOSED_WON",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_num_associated_active_deal_registrations",
+      "destination_field": "HS_NUM_ASSOCIATED_ACTIVE_DEAL_REGISTRATIONS",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_lastmodifieddate",
+      "destination_field": "HS_LASTMODIFIEDDATE",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_num_associated_deal_splits",
+      "destination_field": "HS_NUM_ASSOCIATED_DEAL_SPLITS",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_object_id",
+      "destination_field": "HS_OBJECT_ID",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_days_to_close_raw",
+      "destination_field": "HS_DAYS_TO_CLOSE_RAW",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_deal_score",
+      "destination_field": "HS_DEAL_SCORE",
+      "ignored": true
+    },
+    {
+      "source_field": "subscription_status",
+      "destination_field": "SUBSCRIPTION_STATUS",
+      "ignored": false
+    },
+    {
+      "source_field": "billing_period",
+      "destination_field": "BILLING_PERIOD",
+      "ignored": false
+    },
+    {
+      "source_field": "billing_interval",
+      "destination_field": "BILLING_INTERVAL",
+      "ignored": false
+    },
+    {
+      "source_field": "subscription_length",
+      "destination_field": "SUBSCRIPTION_LENGTH",
+      "ignored": false
+    },
+    {
+      "source_field": "started_at",
+      "destination_field": "STARTED_AT",
+      "ignored": false
+    },
+    {
+      "source_field": "renews_on",
+      "destination_field": "RENEWS_ON",
+      "ignored": false
+    },
+    {
+      "source_field": "cancelled_at",
+      "destination_field": "CANCELLED_AT",
+      "ignored": false
+    },
+    {
+      "source_field": "ended_at",
+      "destination_field": "ENDED_AT",
+      "ignored": false
+    },
+    {
+      "source_field": "domain_name",
+      "destination_field": "DOMAIN_NAME",
+      "ignored": false
+    }
+  ],
+  "destination_table": "HUBSPOT_DEAL"
+}

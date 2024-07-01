@@ -1,0 +1,115 @@
+{
+  "field_mappings": [
+    {
+      "source_field": "id",
+      "destination_field": "PRODUCT_ID",
+      "ignored": false
+    },
+    {
+      "source_field": "name",
+      "destination_field": "NAME",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_sku",
+      "destination_field": "SKU",
+      "ignored": false
+    },
+    {
+      "source_field": "created_at",
+      "destination_field": "CREATED_AT",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_created_by_user_id",
+      "destination_field": "CREATED_BY",
+      "ignored": false
+    },
+    {
+      "source_field": "updated_at",
+      "destination_field": "UPDATED_AT",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_updated_by_user_id",
+      "destination_field": "UPDATED_BY",
+      "ignored": false
+    },
+    {
+      "source_field": "description",
+      "destination_field": "DESCRIPTION",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_product_type",
+      "destination_field": "PRODUCT_TYPE",
+      "ignored": false
+    },
+    {
+      "source_field": "recurringbillingfrequency",
+      "destination_field": "BILLING_FREQUENCY",
+      "ignored": false
+    },
+    {
+      "source_field": "price",
+      "destination_field": "PRICE",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_recurring_billing_period",
+      "destination_field": "TERM",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_object_source_id",
+      "destination_field": "PRODUCT_SOURCE_ID",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_object_source",
+      "destination_field": "PRODUCT_SOURCE",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_object_source_label",
+      "destination_field": "PRODUCT_SOURCE_LABEL",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_object_source_detail_1",
+      "destination_field": "PRODUCT_SOURCE_DETAIL_1",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_object_source_user_id",
+      "destination_field": "PRODUCT_SOURCE_INITIATED_BY",
+      "ignored": false
+    },
+    {
+      "source_field": "archived",
+      "destination_field": "IS_ARCHIVED",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_lastmodifieddate",
+      "destination_field": "HS_LASTMODIFIEDDATE",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_object_id",
+      "destination_field": "HS_OBJECT_ID",
+      "ignored": true
+    },
+    {
+      "source_field": "createdate",
+      "destination_field": "CREATEDATE",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_price_eur",
+      "destination_field": "HS_PRICE_EUR",
+      "ignored": true
+    }
+  ],
+  "destination_table": "HUBSPOT_PRODUCT"
+}

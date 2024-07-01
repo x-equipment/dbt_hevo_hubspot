@@ -1,0 +1,335 @@
+{
+  "field_mappings": [
+    {
+      "source_field": "id",
+      "destination_field": "CONTACT_ID",
+      "ignored": false
+    },
+    {
+      "source_field": "firstname",
+      "destination_field": "FIRSTNAME",
+      "ignored": false
+    },
+    {
+      "source_field": "lastname",
+      "destination_field": "LASTNAME",
+      "ignored": false
+    },
+    {
+      "source_field": "email",
+      "destination_field": "EMAIL",
+      "ignored": false
+    },
+    {
+      "source_field": "created_at",
+      "destination_field": "CREATED_AT",
+      "ignored": false
+    },
+    {
+      "source_field": "updated_at",
+      "destination_field": "UPDATED_AT",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_object_source_id",
+      "destination_field": "CONTACT_SOURCE_ID",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_object_source",
+      "destination_field": "CONTACT_SOURCE",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_object_source_label",
+      "destination_field": "CONTACT_SOURCE_LABEL",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_object_source_detail_1",
+      "destination_field": "CONTACT_SOURCE_DETAIL_1",
+      "ignored": false
+    },
+    {
+      "source_field": "archived",
+      "destination_field": "IS_ARCHIVED",
+      "ignored": false
+    },
+    {
+      "source_field": "phone",
+      "destination_field": "PHONE",
+      "ignored": false
+    },
+    {
+      "source_field": "address",
+      "destination_field": "ADDRESS",
+      "ignored": false
+    },
+    {
+      "source_field": "zip",
+      "destination_field": "ZIP",
+      "ignored": false
+    },
+    {
+      "source_field": "city",
+      "destination_field": "CITY",
+      "ignored": false
+    },
+    {
+      "source_field": "country",
+      "destination_field": "COUNTRY",
+      "ignored": false
+    },
+    {
+      "source_field": "date_of_birth",
+      "destination_field": "DATE_OF_BIRTH",
+      "ignored": false
+    },
+    {
+      "source_field": "current_age",
+      "destination_field": "AGE",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_lead_status",
+      "destination_field": "LEAD_STATUS",
+      "ignored": false
+    },
+    {
+      "source_field": "lifecyclestage",
+      "destination_field": "LIFECYCLE_STAGE",
+      "ignored": false
+    },
+    {
+      "source_field": "relationship_type",
+      "destination_field": "RELATIONSHIP_TYPE",
+      "ignored": false
+    },
+    {
+      "source_field": "became_customer_at",
+      "destination_field": "BECAME_CUSTOMER_AT",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_latest_source_data_2",
+      "destination_field": "HS_LATEST_SOURCE_DATA_2",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_latest_source_data_1",
+      "destination_field": "HS_LATEST_SOURCE_DATA_1",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_is_unworked",
+      "destination_field": "HS_IS_UNWORKED",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_date_entered_lead",
+      "destination_field": "HS_DATE_ENTERED_LEAD",
+      "ignored": true
+    },
+    {
+      "source_field": "num_unique_conversion_events",
+      "destination_field": "NUM_UNIQUE_CONVERSION_EVENTS",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_latest_source",
+      "destination_field": "HS_LATEST_SOURCE",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_pipeline",
+      "destination_field": "HS_PIPELINE",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_analytics_revenue",
+      "destination_field": "HS_ANALYTICS_REVENUE",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_social_num_broadcast_clicks",
+      "destination_field": "HS_SOCIAL_NUM_BROADCAST_CLICKS",
+      "ignored": true
+    },
+    {
+      "source_field": "createdate",
+      "destination_field": "CREATEDATE",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_analytics_num_visits",
+      "destination_field": "HS_ANALYTICS_NUM_VISITS",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_sequences_actively_enrolled_count",
+      "destination_field": "HS_SEQUENCES_ACTIVELY_ENROLLED_COUNT",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_social_linkedin_clicks",
+      "destination_field": "HS_SOCIAL_LINKEDIN_CLICKS",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_marketable_until_renewal",
+      "destination_field": "HS_MARKETABLE_UNTIL_RENEWAL",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_marketable_status",
+      "destination_field": "HS_MARKETABLE_STATUS",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_analytics_source",
+      "destination_field": "HS_ANALYTICS_SOURCE",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_email_domain",
+      "destination_field": "HS_EMAIL_DOMAIN",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_analytics_num_page_views",
+      "destination_field": "HS_ANALYTICS_NUM_PAGE_VIEWS",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_marketable_reason_id",
+      "destination_field": "HS_MARKETABLE_REASON_ID",
+      "ignored": true
+    },
+    {
+      "source_field": "company",
+      "destination_field": "COMPANY",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_latest_source_timestamp",
+      "destination_field": "HS_LATEST_SOURCE_TIMESTAMP",
+      "ignored": true
+    },
+    {
+      "source_field": "website",
+      "destination_field": "WEBSITE",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_marketable_reason_type",
+      "destination_field": "HS_MARKETABLE_REASON_TYPE",
+      "ignored": true
+    },
+    {
+      "source_field": "jobtitle",
+      "destination_field": "JOBTITLE",
+      "ignored": true
+    },
+    {
+      "source_field": "lastmodifieddate",
+      "destination_field": "LASTMODIFIEDDATE",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_analytics_first_timestamp",
+      "destination_field": "HS_ANALYTICS_FIRST_TIMESTAMP",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_social_google_plus_clicks",
+      "destination_field": "HS_SOCIAL_GOOGLE_PLUS_CLICKS",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_time_in_lead",
+      "destination_field": "HS_TIME_IN_LEAD",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_analytics_average_page_views",
+      "destination_field": "HS_ANALYTICS_AVERAGE_PAGE_VIEWS",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_all_contact_vids",
+      "destination_field": "HS_ALL_CONTACT_VIDS",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_social_facebook_clicks",
+      "destination_field": "HS_SOCIAL_FACEBOOK_CLICKS",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_predictivecontactscore_v2",
+      "destination_field": "HS_PREDICTIVECONTACTSCORE_V2",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_is_contact",
+      "destination_field": "HS_IS_CONTACT",
+      "ignored": true
+    },
+    {
+      "source_field": "num_conversion_events",
+      "destination_field": "NUM_CONVERSION_EVENTS",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_object_id",
+      "destination_field": "HS_OBJECT_ID",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_analytics_num_event_completions",
+      "destination_field": "HS_ANALYTICS_NUM_EVENT_COMPLETIONS",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_social_twitter_clicks",
+      "destination_field": "HS_SOCIAL_TWITTER_CLICKS",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_analytics_source_data_2",
+      "destination_field": "HS_ANALYTICS_SOURCE_DATA_2",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_v2_date_entered_lead",
+      "destination_field": "HS_V2_DATE_ENTERED_LEAD",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_lifecyclestage_lead_date",
+      "destination_field": "HS_LIFECYCLESTAGE_LEAD_DATE",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_analytics_source_data_1",
+      "destination_field": "HS_ANALYTICS_SOURCE_DATA_1",
+      "ignored": true
+    },
+    {
+      "source_field": "twitterhandle",
+      "destination_field": "TWITTERHANDLE",
+      "ignored": true
+    },
+    {
+      "source_field": "twitterprofilephoto",
+      "destination_field": "TWITTERPROFILEPHOTO",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_searchable_calculated_phone_number",
+      "destination_field": "HS_SEARCHABLE_CALCULATED_PHONE_NUMBER",
+      "ignored": true
+    }
+  ],
+  "destination_table": "HUBSPOT_CONTACT"
+}

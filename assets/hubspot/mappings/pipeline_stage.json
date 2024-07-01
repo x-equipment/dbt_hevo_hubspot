@@ -1,0 +1,50 @@
+{
+  "field_mappings": [
+    {
+      "source_field": "pipeline_id",
+      "destination_field": "PIPELINE_ID",
+      "ignored": false
+    },
+    {
+      "source_field": "id",
+      "destination_field": "STAGE_ID",
+      "ignored": false
+    },
+    {
+      "source_field": "label",
+      "destination_field": "LABEL",
+      "ignored": false
+    },
+    {
+      "source_field": "display_order",
+      "destination_field": "SORT_ORDER",
+      "ignored": false
+    },
+    {
+      "source_field": "created_at",
+      "destination_field": "CREATED_AT",
+      "ignored": false
+    },
+    {
+      "source_field": "updated_at",
+      "destination_field": "UPDATED_AT",
+      "ignored": false
+    },
+    {
+      "source_field": "probability",
+      "destination_field": "PROBABILITY",
+      "ignored": true
+    },
+    {
+      "source_field": "is_closed",
+      "destination_field": "IS_CLOSED",
+      "ignored": true
+    },
+    {
+      "source_field": "archived",
+      "destination_field": "IS_ARCHIVED",
+      "ignored": false
+    }
+  ],
+  "destination_table": "HUBSPOT_PIPELINE_STAGE"
+}

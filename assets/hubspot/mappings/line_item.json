@@ -1,0 +1,232 @@
+{
+  "field_mappings": [
+    {
+      "source_field": "id",
+      "destination_field": "LINE_ITEM_ID",
+      "ignored": false
+    },
+    {
+      "source_field": "name",
+      "destination_field": "NAME",
+      "ignored": false
+    },
+    {
+      "source_field": "created_at",
+      "destination_field": "CREATED_AT",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_created_by_user_id",
+      "destination_field": "CREATED_BY",
+      "ignored": false
+    },
+    {
+      "source_field": "updated_at",
+      "destination_field": "UPDATED_AT",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_updated_by_user_id",
+      "destination_field": "UPDATED_BY",
+      "ignored": false
+    },
+
+    {
+      "source_field": "hs_position_on_quote",
+      "destination_field": "POSITION_ON_QUOTE",
+      "ignored": false
+    },
+
+    {
+      "source_field": "hs_product_id",
+      "destination_field": "PRODUCT_ID",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_sku",
+      "destination_field": "SKU",
+      "ignored": false
+    },
+    {
+      "source_field": "description",
+      "destination_field": "DESCRIPTION",
+      "ignored": false
+    },
+
+    {
+      "source_field": "hs_recurring_billing_period",
+      "destination_field": "TERM",
+      "ignored": false
+    },
+    {
+      "source_field": "recurringbillingfrequency",
+      "destination_field": "BILLING_FREQUENCY",
+      "ignored": false
+    },
+
+    {
+      "source_field": "quantity",
+      "destination_field": "QUANTITY",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_line_item_currency_code",
+      "destination_field": "CURRENCY",
+      "ignored": false
+    },
+    {
+      "source_field": "price",
+      "destination_field": "PRICE",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_cost_of_goods_sold",
+      "destination_field": "COST_OF_GOODS_SOLD",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_discount_percentage",
+      "destination_field": "DISCOUNT_PERCENTAGE",
+      "ignored": false
+    },
+    {
+      "source_field": "discount",
+      "destination_field": "DISCOUNT",
+      "ignored": false
+    },
+    {
+      "source_field": "amount",
+      "destination_field": "AMOUNT",
+      "ignored": false
+    },
+
+    {
+      "source_field": "hs_mrr",
+      "destination_field": "MRR",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_arr",
+      "destination_field": "ARR",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_acv",
+      "destination_field": "ACV",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_tcv",
+      "destination_field": "TCV",
+      "ignored": false
+    },
+
+    {
+      "source_field": "hs_object_source_id",
+      "destination_field": "LINE_ITEM_SOURCE_ID",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_object_source",
+      "destination_field": "LINE_ITEM_SOURCE",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_object_source_label",
+      "destination_field": "LINE_ITEM_SOURCE_LABEL",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_object_source_detail_1",
+      "destination_field": "LINE_ITEM_SOURCE_DETAIL_1",
+      "ignored": false
+    },
+
+    {
+      "source_field": "archived",
+      "destination_field": "IS_ARCHIVED",
+      "ignored": false
+    },
+
+
+    {
+      "source_field": "hs_recurring_billing_number_of_payments",
+      "destination_field": "NUMBER_OF_PAYMENTS",
+      "ignored": false
+    },
+    {
+      "source_field": "hs_term_in_months",
+      "destination_field": "TERM_IN_MONTHS",
+      "ignored": false
+    },
+
+
+
+    {
+      "source_field": "createdate",
+      "destination_field": "CREATEDATE",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_pre_discount_amount",
+      "destination_field": "HS_PRE_DISCOUNT_AMOUNT",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_total_discount",
+      "destination_field": "HS_TOTAL_DISCOUNT",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_post_tax_amount",
+      "destination_field": "HS_POST_TAX_AMOUNT",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_margin",
+      "destination_field": "HS_MARGIN",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_margin_mrr",
+      "destination_field": "HS_MARGIN_MRR",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_margin_arr",
+      "destination_field": "HS_MARGIN_ARR",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_margin_acv",
+      "destination_field": "HS_MARGIN_ACV",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_margin_tcv",
+      "destination_field": "HS_MARGIN_TCV",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_lastmodifieddate",
+      "destination_field": "HS_LASTMODIFIEDDATE",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_object_id",
+      "destination_field": "HS_OBJECT_ID",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_object_source_user_id",
+      "destination_field": "HS_OBJECT_SOURCE_USER_ID",
+      "ignored": true
+    },
+    {
+      "source_field": "hs_recurring_billing_terms",
+      "destination_field": "HS_RECURRING_BILLING_TERMS",
+      "ignored": true
+    }
+  ],
+  "destination_table": "HUBSPOT_LINE_ITEM"
+}
