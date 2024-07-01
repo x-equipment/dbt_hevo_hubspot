@@ -162,6 +162,7 @@ create table if not exists hubspot_product (
   billing_frequency varchar,
   price float,
   cost_of_goods_sold float,
+  tax float,
 
   -- price_eur float,
 
@@ -321,6 +322,7 @@ create table if not exists hubspot_line_item (
   cost_of_goods_sold float,
   discount_percentage float,
   discount float,
+  tax float,
 
   amount float,
   mrr float,
