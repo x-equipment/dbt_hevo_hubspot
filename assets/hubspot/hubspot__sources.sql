@@ -441,6 +441,38 @@ create table if not exists hubspot_association__deal_to_line_item (
   primary key (deal_id, line_item_id)
 );
 
+-- hubspot association company_to_deal
+create table if not exists hubspot_association__company_to_deal (
+  association varchar,
+
+  company_id varchar not null,
+  deal_id varchar not null,
+
+  is_archived boolean,
+  archived_at timestamp,
+
+  __hevo__ingested_at integer,
+  __hevo__loaded_at integer,
+
+  primary key (company_id, deal_id)
+);
+
+-- hubspot association deal_to_company
+create table if not exists hubspot_association__deal_to_company (
+  association varchar,
+
+  deal_id varchar not null,
+  company_id varchar not null,
+
+  is_archived boolean,
+  archived_at timestamp,
+
+  __hevo__ingested_at integer,
+  __hevo__loaded_at integer,
+
+  primary key (deal_id, company_id)
+);
+
 -- hubspot association line_item_to_deal
 create table if not exists hubspot_association__line_item_to_deal (
   association varchar,
